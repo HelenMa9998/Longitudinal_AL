@@ -33,8 +33,8 @@ Adversarial active learning			# Source code
     ├── seed.py			 	                                          # Set up random seed
     ├── query_strategies		                                    # All query_strategies
     │   ├── bayesian_active_learning_disagreement_dropout.py	  # Deep bayesian query method
-    │   ├── margin_sampling.py      # Margin-based query method
-    │   ├── least_confidence.py      # least_confidence-based query method
+    │   ├── margin_sampling.py                              # Margin-based query method
+    │   ├── least_confidence.py                              # least_confidence-based query method
     │   ├── entropy_sampling.py		                              # Entropy based query method
     │   ├── entropy_sampling_dropout.py		                      # Entropy based MC dropout query method
     │   ├── random_sampling.py		                              # Random selection
@@ -46,7 +46,7 @@ Adversarial active learning			# Source code
     ├── handlers.py                                             # Get dataloader for the dataset
     ├── main.py			                                            # An example for code utilization, including the whole process of active learning
     ├── nets.py		                                              # Training models and methods needed for query method
-    ├── config.py                                    # Configurations
+    ├── config.py                                        # Configurations
     ├── visualization.py                                    # Visualization for AL sample selection
     ├── supervised_baseline.py	                                # An example for supervised learning traning process
     └── utils.py			                                          # Important setups including network, dataset, hyperparameters...
